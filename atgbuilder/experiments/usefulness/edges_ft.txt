@@ -1,0 +1,428 @@
+APK: com.simplesoftwarestudio.psaltyr_87.0
+com.simplesoftwarestudio.psaltyr.InfoActivity -> com.simplesoftwarestudio.psaltyr.MainActivity | p=0.993382
+com.simplesoftwarestudio.psaltyr.MainActivity -> com.simplesoftwarestudio.psaltyr.InfoActivity | p=0.993208
+com.simplesoftwarestudio.psaltyr.MainActivity -> com.simplesoftwarestudio.psaltyr.AboutActivity | p=0.845092
+com.simplesoftwarestudio.psaltyr.InfoActivity -> com.simplesoftwarestudio.psaltyr.AboutActivity | p=0.815689
+com.simplesoftwarestudio.psaltyr.AboutActivity -> com.simplesoftwarestudio.psaltyr.MainActivity | p=0.785526
+com.simplesoftwarestudio.psaltyr.AboutActivity -> com.simplesoftwarestudio.psaltyr.InfoActivity | p=0.743226
+
+APK: org.biotstoiq.seshat_11
+org.biotstoiq.seshat.HowToActivity -> org.biotstoiq.seshat.LedgerActivity | p=0.979605
+org.biotstoiq.seshat.IntroActivity -> org.biotstoiq.seshat.HowToActivity | p=0.822993
+org.biotstoiq.seshat.IntroActivity -> org.biotstoiq.seshat.LedgerActivity | p=0.787999
+org.biotstoiq.seshat.HowToActivity -> org.biotstoiq.seshat.IntroActivity | p=0.742312
+org.biotstoiq.seshat.MainActivity -> org.biotstoiq.seshat.LedgerActivity | p=0.658318
+org.biotstoiq.seshat.MainActivity -> org.biotstoiq.seshat.HowToActivity | p=0.634865
+org.biotstoiq.seshat.LedgerActivity -> org.biotstoiq.seshat.MainActivity | p=0.591644
+org.biotstoiq.seshat.HowToActivity -> org.biotstoiq.seshat.MainActivity | p=0.544863
+
+APK: com.github.axet.audiorecorder_377
+com.github.axet.audiorecorder.activities.RecordingActivity -> com.github.axet.audiorecorder.activities.SettingsActivity | p=0.978950
+com.github.axet.audiorecorder.activities.SettingsActivity -> com.github.axet.audiorecorder.activities.RecordingActivity | p=0.978815
+com.github.axet.audiorecorder.activities.RecordingActivity -> com.github.axet.audiorecorder.activities.MainActivity | p=0.944674
+com.github.axet.audiorecorder.activities.MainActivity -> com.github.axet.audiorecorder.activities.RecordingActivity | p=0.933769
+com.github.axet.audiorecorder.activities.SettingsActivity -> com.github.axet.audiorecorder.activities.MainActivity | p=0.892252
+com.github.axet.audiorecorder.activities.MainActivity -> com.github.axet.audiorecorder.activities.SettingsActivity | p=0.873134
+
+APK: com.linkbubble.playstore_24800.0
+com.linkbubble.ui.SettingsHelpActivity -> com.linkbubble.ui.SettingsActivity | p=0.948071
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.SettingsHelpActivity | p=0.901938
+com.linkbubble.ui.HistoryActivity -> com.linkbubble.ui.HomeActivity | p=0.897104
+com.linkbubble.ui.HomeActivity -> com.linkbubble.ui.HistoryActivity | p=0.893830
+com.linkbubble.ui.SettingsMoreActivity -> com.linkbubble.ui.SettingsActivity | p=0.855467
+com.linkbubble.ui.SettingsDomainsActivity -> com.linkbubble.ui.SettingsActivity | p=0.849850
+com.linkbubble.ui.ExpandedActivity -> com.linkbubble.ui.SettingsActivity | p=0.770685
+com.linkbubble.ui.HomeActivity -> com.linkbubble.ui.SettingsActivity | p=0.769709
+com.linkbubble.ui.HistoryActivity -> com.linkbubble.ui.EntryActivity | p=0.715850
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.EntryActivity | p=0.714696
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.SettingsDomainsActivity | p=0.662312
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.SettingsMoreActivity | p=0.648192
+com.linkbubble.ui.SettingsMoreActivity -> com.linkbubble.ui.HomeActivity | p=0.599167
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.ExpandedActivity | p=0.530281
+com.linkbubble.ui.HomeActivity -> com.linkbubble.ui.SettingsDomainsActivity | p=0.450450
+
+APK: cf.playhi.freezeyou_151
+cf.playhi.freezeyou.ui.BackupImportChooserActivity -> cf.playhi.freezeyou.ui.BackupMainActivity | p=0.968054
+cf.playhi.freezeyou.ui.BackupMainActivity -> cf.playhi.freezeyou.ui.BackupImportChooserActivity | p=0.956895
+cf.playhi.freezeyou.ui.ScheduledTasksManageActivity -> cf.playhi.freezeyou.ui.ScheduledTasksAddActivity | p=0.899456
+cf.playhi.freezeyou.ui.ScheduledTasksAddActivity -> cf.playhi.freezeyou.ui.ScheduledTasksManageActivity | p=0.883471
+cf.playhi.freezeyou.ui.AutoDiagnosisActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.872299
+cf.playhi.freezeyou.ui.UriAutoAllowManageActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.870054
+cf.playhi.freezeyou.ui.SelectTargetActivityActivity -> cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity | p=0.844226
+cf.playhi.freezeyou.ui.AboutActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.835973
+cf.playhi.freezeyou.ui.FirstTimeSetupActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.813431
+cf.playhi.freezeyou.ui.ManualModeActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.805734
+cf.playhi.freezeyou.Freeze -> cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity | p=0.797069
+cf.playhi.freezeyou.ui.UninstallActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.787683
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.765950
+cf.playhi.freezeyou.ui.FUFLauncherShortcutCreator -> cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity | p=0.747790
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.ui.FUFLauncherShortcutCreator | p=0.729096
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.ui.SelectTargetActivityActivity | p=0.696588
+cf.playhi.freezeyou.ui.ScheduledTasksManageActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.690390
+cf.playhi.freezeyou.ui.UserDefinedListsManageActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.680609
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.Freeze | p=0.624770
+cf.playhi.freezeyou.ui.ShortcutLauncherFolderActivity -> cf.playhi.freezeyou.ui.FUFLauncherShortcutCreator | p=0.588348
+cf.playhi.freezeyou.ui.FUFLauncherShortcutCreator -> cf.playhi.freezeyou.ui.ShortcutLauncherFolderActivity | p=0.556487
+cf.playhi.freezeyou.ui.ShortcutLauncherFolderActivity -> cf.playhi.freezeyou.ui.SelectShortcutIconActivity | p=0.550700
+cf.playhi.freezeyou.ui.BackupMainActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.497980
+cf.playhi.freezeyou.ui.UserDefinedListsManageActivity -> cf.playhi.freezeyou.Freeze | p=0.474222
+cf.playhi.freezeyou.ui.ShowLogcatActivity -> cf.playhi.freezeyou.ui.SettingsActivity | p=0.381020
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.AutoDiagnosisActivity | p=0.371115
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.UriAutoAllowManageActivity | p=0.365465
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.AboutActivity | p=0.349737
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.ManualModeActivity | p=0.313245
+cf.playhi.freezeyou.ui.AutoDiagnosisActivity -> cf.playhi.freezeyou.ui.BackupMainActivity | p=0.304023
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.BackupMainActivity | p=0.285506
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.ScheduledTasksManageActivity | p=0.282857
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.UninstallActivity | p=0.260692
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.UserDefinedListsManageActivity | p=0.150013
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.ShowLogcatActivity | p=0.145814
+
+APK: de.wuapps.moredays_19
+de.wuapps.moredays.ui.onboarding.Onboarding -> de.wuapps.moredays.MainActivity | p=0.971336
+de.wuapps.moredays.MainActivity -> de.wuapps.moredays.ui.onboarding.Onboarding | p=0.970100
+
+APK: com.forrestguice.suntimeswidget_106
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.SuntimesActivity | p=0.985706
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.SuntimesSettingsActivity | p=0.979808
+com.forrestguice.suntimeswidget.actions.ActionListActivity -> com.forrestguice.suntimeswidget.alarmclock.ui.AlarmEditActivity | p=0.881429
+com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity -> com.forrestguice.suntimeswidget.themes.WidgetThemeConfigActivity | p=0.857151
+com.forrestguice.suntimeswidget.getfix.PlacesActivity -> com.forrestguice.suntimeswidget.SuntimesSettingsActivity | p=0.810062
+com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity -> com.forrestguice.suntimeswidget.SuntimesActivity | p=0.724908
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.getfix.PlacesActivity | p=0.710976
+com.forrestguice.suntimeswidget.WelcomeActivity -> com.forrestguice.suntimeswidget.SuntimesActivity | p=0.701470
+com.forrestguice.suntimeswidget.events.EventListActivity -> com.forrestguice.suntimeswidget.SuntimesActivity | p=0.675485
+com.forrestguice.suntimeswidget.WelcomeActivity -> com.forrestguice.suntimeswidget.SuntimesSettingsActivity | p=0.670114
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.WelcomeActivity | p=0.664748
+com.forrestguice.suntimeswidget.AboutActivity -> com.forrestguice.suntimeswidget.SuntimesActivity | p=0.606117
+com.forrestguice.suntimeswidget.alarmclock.ui.AlarmEditActivity -> com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity | p=0.549345
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.events.EventListActivity | p=0.517796
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity | p=0.487927
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.events.EventListActivity | p=0.455282
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.SuntimesWidgetListActivity | p=0.447718
+com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity -> com.forrestguice.suntimeswidget.AboutActivity | p=0.424684
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.AboutActivity | p=0.398823
+com.forrestguice.suntimeswidget.actions.ActionListActivity -> com.forrestguice.suntimeswidget.SuntimesSettingsActivity | p=0.372840
+com.forrestguice.suntimeswidget.SuntimesWidgetListActivity -> com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity | p=0.348408
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.alarmclock.ui.AlarmEditActivity | p=0.303459
+
+APK: com.jnj.mocospace.android_66370.0
+com.jnj.mocospace.android.presentation.home.UserSettings -> com.jnj.mocospace.android.presentation.home.MainWebView | p=0.978151
+com.jnj.mocospace.android.presentation.home.MainWebView -> com.jnj.mocospace.android.presentation.home.UserSettings | p=0.977668
+
+APK: com.simplemobiletools.draw.pro_82
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity | p=0.915568
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity | p=0.904491
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity | p=0.669076
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity | p=0.659742
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.draw.pro.activities.SettingsActivity | p=0.506963
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.draw.pro.activities.MainActivity | p=0.461743
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.draw.pro.activities.SettingsActivity | p=0.422929
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity | p=0.383765
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.activities.AboutActivity | p=0.373194
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity | p=0.371846
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.draw.pro.activities.SettingsActivity | p=0.202713
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.activities.ContributorsActivity | p=0.122563
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.draw.pro.activities.MainActivity | p=0.096333
+
+APK: org.piepmeyer.gauguin_18
+org.piepmeyer.gauguin.ui.newgame.NewGameActivity -> org.piepmeyer.gauguin.ui.SettingsActivity | p=0.993869
+org.piepmeyer.gauguin.ui.SettingsActivity -> org.piepmeyer.gauguin.ui.StatisticsActivity | p=0.934515
+org.piepmeyer.gauguin.ui.newgame.NewGameActivity -> org.piepmeyer.gauguin.ui.StatisticsActivity | p=0.917426
+org.piepmeyer.gauguin.ui.StatisticsActivity -> org.piepmeyer.gauguin.ui.main.MainActivity | p=0.674081
+org.piepmeyer.gauguin.ui.LoadGameListActivity -> org.piepmeyer.gauguin.ui.main.MainActivity | p=0.651344
+org.piepmeyer.gauguin.ui.newgame.NewGameActivity -> org.piepmeyer.gauguin.ui.main.MainActivity | p=0.611778
+org.piepmeyer.gauguin.ui.SettingsActivity -> org.piepmeyer.gauguin.ui.main.MainActivity | p=0.606827
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.StatisticsActivity | p=0.542699
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.LoadGameListActivity | p=0.531149
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.newgame.NewGameActivity | p=0.491555
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.SettingsActivity | p=0.465997
+org.piepmeyer.gauguin.ui.StatisticsActivity -> org.piepmeyer.gauguin.ui.LoadGameListActivity | p=0.429118
+org.piepmeyer.gauguin.ui.LoadGameListActivity -> org.piepmeyer.gauguin.ui.StatisticsActivity | p=0.415628
+org.piepmeyer.gauguin.ui.LoadGameListActivity -> org.piepmeyer.gauguin.ui.newgame.NewGameActivity | p=0.342350
+org.piepmeyer.gauguin.ui.SettingsActivity -> org.piepmeyer.gauguin.ui.LoadGameListActivity | p=0.341500
+org.piepmeyer.gauguin.ui.LoadGameListActivity -> org.piepmeyer.gauguin.ui.SettingsActivity | p=0.325933
+
+APK: com.bitstrips.imoji_1180009833.0
+com.bitstrips.imoji.ui.LoginActivity -> com.bitstrips.authv2.ui.activity.LoginV2Activity | p=0.945454
+com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity -> com.bitstrips.imoji.browser.ImojiBrowserActivity | p=0.905821
+com.bitstrips.imoji.ui.ImojiWebViewActivity -> com.bitstrips.imoji.browser.ImojiBrowserActivity | p=0.863813
+com.bitstrips.connectedapps.ui.activity.ConnectedAppsActivity -> com.bitstrips.imoji.browser.ImojiBrowserActivity | p=0.830723
+com.bitstrips.imoji.abv3.AvatarBuilderActivityV3 -> com.bitstrips.imoji.browser.ImojiBrowserActivity | p=0.739692
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity | p=0.737076
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.imoji.ui.ImojiWebViewActivity | p=0.717673
+com.bitstrips.authv2.ui.activity.LoginV2Activity -> com.bitstrips.imoji.browser.ImojiBrowserActivity | p=0.667836
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.connectedapps.ui.activity.ConnectedAppsActivity | p=0.505564
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.imoji.abv3.AvatarBuilderActivityV3 | p=0.460027
+
+APK: com.jarsilio.android.waveup_121
+com.jarsilio.android.common.impressum.ImpressumActivity -> com.mikepenz.aboutlibraries.ui.LibsActivity | p=0.962996
+com.jarsilio.android.common.impressum.ImpressumActivity -> com.jarsilio.android.waveup.MainActivity | p=0.872891
+com.jarsilio.android.waveup.MainActivity -> com.jarsilio.android.common.impressum.ImpressumActivity | p=0.859898
+com.jarsilio.android.common.privacypolicy.PrivacyPolicyActivity -> com.jarsilio.android.waveup.MainActivity | p=0.839469
+com.jarsilio.android.waveup.MainActivity -> com.jarsilio.android.common.privacypolicy.PrivacyPolicyActivity | p=0.819631
+com.mikepenz.aboutlibraries.ui.LibsActivity -> com.jarsilio.android.waveup.MainActivity | p=0.773136
+com.jarsilio.android.waveup.MainActivity -> com.mikepenz.aboutlibraries.ui.LibsActivity | p=0.753080
+
+APK: com.schlageabode.lock_7.0
+com.alfred.home.ui.auth.MailboxVerifiySuccessActivity -> com.alfred.home.ui.auth.WelcomeSignInActivity | p=1.000000
+com.alfred.home.ui.sharedkey.InvitationEditActivity -> com.alfred.home.ui.sharedkey.InvitationCreateActivity | p=1.000000
+com.alfred.home.ui.add.lock.AddLockActivity -> com.alfred.home.ui.gateway.SubdeviceAssignActivity | p=0.996493
+com.alfred.home.ui.family.MemberCreateActivity -> com.alfred.home.ui.family.MemberAssignKeysActivity | p=0.968220
+com.alfred.home.ui.add.gateway.AddGatewayActivity -> com.alfred.home.ui.add.AddDeviceActivity | p=0.965754
+com.alfred.home.ui.add.AddDeviceActivity -> com.alfred.home.ui.add.gateway.AddGatewayActivity | p=0.962098
+com.alfred.home.ui.auth.ResetAccountActivity -> com.alfred.home.ui.auth.ChangePasswordActivity | p=0.953226
+com.alfred.home.ui.family.MemberProfileEditActivity -> com.alfred.home.ui.family.MemberProfileActivity | p=0.939581
+com.alfred.home.ui.inbox.EventMessageActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.937755
+com.alfred.home.ui.family.MemberAssignKeysActivity -> com.alfred.home.ui.auth.ResetAccountActivity | p=0.933226
+com.alfred.home.ui.auth.ChangePasswordActivity -> com.alfred.home.ui.auth.ResetAccountActivity | p=0.932868
+com.alfred.home.ui.patternlock.PatternLockSettingActivity -> com.alfred.home.ui.security.SecuritySettingsActivity | p=0.932081
+com.alfred.home.ui.patternlock.PatternLockActivity -> com.alfred.home.ui.security.SecuritySettingsActivity | p=0.914588
+com.alfred.home.ui.auth.SignInActivity -> com.alfred.home.ui.auth.ResetAccountActivity | p=0.913679
+com.alfred.home.ui.kdslock.KdsLockChangeAdminCodesActivity -> com.alfred.home.ui.sharedkey.InvitationEditActivity | p=0.907924
+com.alfred.home.ui.autounlock.KdsLockAutoUnlockLocationActivity -> com.alfred.home.ui.autounlock.KdsLockAutoUnlockActivity | p=0.907717
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockBasicSettingsActivity | p=0.896621
+com.alfred.home.ui.add.AddDeviceActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.892955
+com.alfred.home.ui.gateway.GatewayRenameActivity -> com.alfred.home.ui.kdslock.KdslockManageAccessActivity | p=0.888654
+com.alfred.home.ui.auth.RenameAccountActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.887002
+com.alfred.home.ui.kdslock.KdsSharedLockRenameActivity -> com.alfred.home.ui.kdslock.KdsLockSettingsActivity | p=0.882117
+com.alfred.home.ui.add.AddDeviceActivity -> com.alfred.home.ui.add.lock.AddLockActivity | p=0.831766
+com.alfred.home.ui.add.lock.AddLockActivity -> com.alfred.home.ui.add.AddDeviceActivity | p=0.827643
+com.alfred.home.ui.gateway.GatewayBasicSettingsActivity -> com.alfred.home.ui.gateway.GatewayInfoActivity | p=0.827052
+com.alfred.home.ui.autounlock.KdsLockAutoUnlockActivity -> com.alfred.home.ui.autounlock.KdsLockAutoUnlockLocationActivity | p=0.822688
+com.alfred.home.ui.auth.MailboxVerificationActivity -> com.alfred.home.ui.WebViewActivity | p=0.810359
+com.alfred.home.ui.family.MemberCreateActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.803835
+com.alfred.home.ui.kdslock.KdslockManageAccessActivity -> com.alfred.home.ui.sharedkey.SharedKeysActivity | p=0.798261
+com.alfred.home.ui.add.gateway.AddGatewayActivity -> com.alfred.home.ui.gateway.SubdeviceAssignActivity | p=0.791537
+com.alfred.home.ui.gateway.SubdeviceAssignActivity -> com.alfred.home.ui.add.gateway.AddGatewayActivity | p=0.789426
+com.alfred.home.ui.auth.ChangePasswordActivity -> com.alfred.home.ui.auth.SignInActivity | p=0.787359
+com.alfred.home.ui.gateway.SubdeviceSimpleListActivity -> com.alfred.home.ui.kdslock.KdsLockPinKeysActivity | p=0.780927
+com.alfred.home.ui.kdslock.KdsLockPushMessageActivity -> com.alfred.home.ui.autounlock.KdsLockAutoUnlockLimitActivity | p=0.772910
+com.alfred.home.ui.family.MemberAssignKeysActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.771757
+com.alfred.home.ui.kdslock.KdsLockMainActivity -> com.alfred.home.ui.kdslock.KdsLockBasicSettingsActivity | p=0.760873
+com.alfred.home.ui.kdslock.KdsLockBasicSettingsActivity -> com.alfred.home.ui.kdslock.KdsSharedLockRenameActivity | p=0.758648
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.patternlock.PatternLockSettingActivity | p=0.756076
+com.alfred.home.ui.auth.SignInActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.754611
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.754174
+com.alfred.home.ui.gateway.GatewaySettingsActivity -> com.alfred.home.ui.gateway.GatewayBasicSettingsActivity | p=0.752151
+com.alfred.home.ui.kdslock.KdsLockInsideLockActivity -> com.alfred.home.ui.kdslock.AboutDescriptionActivity | p=0.747053
+com.alfred.home.ui.kdslock.KdsLockAutoLockActivity -> com.alfred.home.ui.kdslock.AboutDescriptionActivity | p=0.739176
+com.alfred.home.ui.auth.ChangePasswordActivity -> com.alfred.home.ui.security.SecuritySettingsActivity | p=0.737786
+com.alfred.home.ui.family.MemberProfileActivity -> com.alfred.home.ui.family.MemberProfileEditActivity | p=0.734928
+com.alfred.home.ui.me.AboutActivity -> com.alfred.home.ui.WebViewActivity | p=0.727142
+com.alfred.home.ui.gateway.GatewayBasicSettingsActivity -> com.alfred.home.ui.gateway.GatewayRenameActivity | p=0.724824
+com.alfred.home.ui.family.MemberAssignKeysActivity -> com.alfred.home.ui.patternlock.PatternLockSettingActivity | p=0.721867
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.inbox.EventMessageActivity | p=0.713002
+com.alfred.home.ui.kdslock.KdslockManageAccessActivity -> com.alfred.home.ui.kdslock.KdsLockAccessCardsActivity | p=0.700439
+com.alfred.home.ui.kdslock.KdsLockMainActivity -> com.alfred.home.ui.kdslock.KdsLockInfoActivity | p=0.697059
+com.alfred.home.ui.me.AboutActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.691119
+com.alfred.home.ui.kdslock.KdsLockAwayModeActivity -> com.alfred.home.ui.kdslock.AboutDescriptionActivity | p=0.688124
+com.alfred.home.ui.sharedkey.SharedKeysActivity -> com.alfred.home.ui.family.FamilyMemberToShareActivity | p=0.685062
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.patternlock.PatternLockActivity | p=0.676530
+com.alfred.home.ui.gateway.GatewayBasicSettingsActivity -> com.alfred.home.ui.family.MemberProfileEditActivity | p=0.653978
+com.alfred.home.ui.autounlock.KdsLockAutoUnlockLocationActivity -> com.alfred.home.ui.add.AddDeviceActivity | p=0.649494
+com.alfred.home.ui.autounlock.KdsLockAutoUnlockActivity -> com.alfred.home.ui.autounlock.KdsLockAutoUnlockLimitActivity | p=0.649099
+com.alfred.home.ui.kdslock.KdsLockMainActivity -> com.alfred.home.ui.kdslock.KdslockManageAccessActivity | p=0.646345
+com.alfred.home.ui.kdslock.KdsLockBasicSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockPushMessageActivity | p=0.642934
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.security.SecuritySettingsActivity | p=0.642617
+com.alfred.home.ui.kdslock.KdsLockMainActivity -> com.alfred.home.ui.kdslock.KdsLockRecordsActivity | p=0.631989
+com.alfred.home.ui.gateway.GatewaySettingsActivity -> com.alfred.home.ui.WebViewActivity | p=0.599748
+com.alfred.home.ui.kdslock.KdsSharedLockRenameActivity -> com.alfred.home.ui.family.FamilyMemberToShareActivity | p=0.593601
+com.alfred.home.ui.gateway.GatewaySettingsActivity -> com.alfred.home.ui.gateway.SubdeviceSimpleListActivity | p=0.587086
+com.alfred.home.ui.kdslock.KdsLockBasicSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockChangeAdminCodesActivity | p=0.581487
+com.alfred.home.ui.kdslock.KdsLockPowerSaveActivity -> com.alfred.home.ui.patternlock.PatternLockActivity | p=0.581276
+com.alfred.home.ui.kdslock.KdsLockPowerSaveActivity -> com.alfred.home.ui.autounlock.KdsLockAutoUnlockLocationActivity | p=0.571994
+com.alfred.home.ui.gateway.GatewayInfoActivity -> com.alfred.home.ui.kdslock.KdsLockMainActivity | p=0.566250
+com.alfred.home.ui.gateway.SubdeviceAssignActivity -> com.alfred.home.ui.patternlock.PatternLockActivity | p=0.564522
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.gateway.SubdeviceOwnershipActivity | p=0.550895
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.family.MemberProfileActivity | p=0.547092
+com.alfred.home.ui.family.MemberProfileActivity -> com.alfred.home.ui.homepage.MainActivity | p=0.522206
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockPowerSaveActivity | p=0.502333
+com.alfred.home.ui.gateway.GatewaySettingsActivity -> com.alfred.home.ui.gateway.GatewayTimezoneActivity | p=0.496428
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.autounlock.KdsLockAutoUnlockActivity | p=0.492797
+com.alfred.home.ui.autounlock.KdsLockAutoUnlockLocationActivity -> com.alfred.home.ui.kdslock.KdsLockPowerSaveActivity | p=0.491865
+com.alfred.home.ui.WebViewActivity -> com.alfred.home.ui.me.AboutActivity | p=0.486923
+com.alfred.home.ui.kdslock.KdsLockPowerSaveActivity -> com.alfred.home.ui.kdslock.AboutDescriptionActivity | p=0.470989
+com.alfred.home.ui.kdslock.KdsLockInsideLockActivity -> com.alfred.home.ui.autounlock.KdsLockAutoUnlockActivity | p=0.457969
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.add.AddDeviceActivity | p=0.455247
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.auth.ChangePasswordActivity | p=0.450985
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.gateway.GatewayRenameActivity | p=0.442959
+com.alfred.home.ui.gateway.SubdeviceAssignActivity -> com.alfred.home.ui.kdslock.KdslockManageAccessActivity | p=0.440104
+com.alfred.home.ui.kdslock.KdsLockAutoLockActivity -> com.alfred.home.ui.me.AboutActivity | p=0.438035
+com.alfred.home.ui.kdslock.KdsLockBasicSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockInfoActivity | p=0.435890
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockAwayModeActivity | p=0.428804
+com.alfred.home.ui.kdslock.KdslockManageAccessActivity -> com.alfred.home.ui.kdslock.KdsLockTouchKeysActivity | p=0.419468
+com.alfred.home.ui.gateway.GatewayInfoActivity -> com.alfred.home.ui.kdslock.KdsLockAwayModeActivity | p=0.414292
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockInsideLockActivity | p=0.413801
+com.alfred.home.ui.autounlock.KdsLockAutoUnlockLocationActivity -> com.alfred.home.ui.gateway.SubdeviceOwnershipActivity | p=0.402863
+com.alfred.home.ui.kdslock.KdslockManageAccessActivity -> com.alfred.home.ui.kdslock.KdsLockInfoActivity | p=0.398911
+com.alfred.home.ui.gateway.SubdeviceOwnershipActivity -> com.alfred.home.ui.auth.WelcomeSignInActivity | p=0.392197
+com.alfred.home.ui.kdslock.KdslockManageAccessActivity -> com.alfred.home.ui.kdslock.KdsLockPinKeysActivity | p=0.368302
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.kdslock.KdsLockPowerSaveActivity | p=0.363851
+com.alfred.home.ui.kdslock.KdsLockAwayModeActivity -> com.alfred.home.ui.me.AboutActivity | p=0.357719
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.family.MemberCreateActivity | p=0.339798
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockAutoLockActivity | p=0.338577
+com.alfred.home.ui.gateway.GatewaySettingsActivity -> com.alfred.home.ui.add.gateway.AddGatewayActivity | p=0.332393
+com.alfred.home.ui.auth.WelcomeSignInActivity -> com.alfred.home.ui.kdslock.KdsLockAccessCardsActivity | p=0.316078
+com.alfred.home.ui.family.MemberProfileActivity -> com.alfred.home.ui.sharedkey.SharedKeysActivity | p=0.310856
+com.alfred.home.ui.kdslock.KdsLockMainActivity -> com.alfred.home.ui.family.FamilyMemberToShareActivity | p=0.303046
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.kdslock.KdsLockVoiceActivity | p=0.297325
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.auth.RenameAccountActivity | p=0.224508
+com.alfred.home.ui.family.MemberProfileEditActivity -> com.alfred.home.ui.sharedkey.InvitationCreateActivity | p=0.217219
+com.alfred.home.ui.kdslock.KdsLockInsideLockActivity -> com.alfred.home.ui.auth.WelcomeSignInActivity | p=0.196482
+com.alfred.home.ui.kdslock.KdsLockVoiceActivity -> com.alfred.home.ui.kdslock.KdsLockInfoActivity | p=0.188259
+com.alfred.home.ui.auth.MailboxVerificationActivity -> com.alfred.home.ui.auth.ResetAccountActivity | p=0.183575
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.me.AboutActivity | p=0.156192
+com.alfred.home.ui.patternlock.PatternLockActivity -> com.alfred.home.ui.me.AboutActivity | p=0.132051
+com.alfred.home.ui.auth.ResetAccountActivity -> com.alfred.home.ui.gateway.GatewayTimezoneActivity | p=0.127376
+com.alfred.home.ui.kdslock.KdsLockRecordsActivity -> com.alfred.home.ui.autounlock.AutoUnlockServiceDebugActivity | p=0.109262
+com.alfred.home.ui.me.AboutActivity -> com.alfred.home.ui.gateway.SubdeviceSimpleListActivity | p=0.106977
+com.alfred.home.ui.kdslock.KdsLockSettingsActivity -> com.alfred.home.ui.autounlock.AutoUnlockServiceDebugActivity | p=0.079160
+
+APK: com.citrix.CitrixVPN_136.0
+com.citrix.citrixvpn.StatisticsActivity -> com.citrix.citrixvpn.MainActivity | p=0.890797
+com.citrix.citrixvpn.AboutActivity -> com.citrix.citrixvpn.MainActivity | p=0.875588
+com.citrix.citrixvpn.AddConnectionActivity -> com.citrix.citrixvpn.MainActivity | p=0.861659
+com.citrix.citrixvpn.SettingsActivity -> com.citrix.citrixvpn.MainActivity | p=0.855545
+com.citrix.citrixvpn.HelpIndexActivity -> com.citrix.citrixvpn.HelpActivity | p=0.825464
+com.citrix.citrixvpn.LogActivity -> com.citrix.citrixvpn.MainActivity | p=0.780766
+com.citrix.citrixvpn.HelpActivity -> com.citrix.citrixvpn.HelpIndexActivity | p=0.740365
+com.citrix.citrixvpn.totp.AddTotp -> com.citrix.citrixvpn.StatisticsActivity | p=0.738620
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.StatisticsActivity | p=0.682235
+com.citrix.citrixvpn.totp.AddTotp -> com.citrix.citrixvpn.EditConnectionsActivity | p=0.642639
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.AboutActivity | p=0.632158
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.AddConnectionActivity | p=0.624467
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.SettingsActivity | p=0.619882
+com.citrix.citrixvpn.EditConnectionsActivity -> com.citrix.citrixvpn.totp.AddTotp | p=0.556911
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.LogActivity | p=0.518201
+com.citrix.citrixvpn.HelpActivity -> com.citrix.citrixvpn.MainActivity | p=0.506673
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.EditConnectionsActivity | p=0.386823
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.HelpActivity | p=0.337593
+com.citrix.citrixvpn.SplashScreen -> com.citrix.citrixvpn.MainActivity | p=0.254010
+
+APK: org.sensors2.pd_4
+org.sensors2.pd.activities.GuideActivity -> org.sensors2.pd.activities.SettingsActivity | p=0.991947
+org.sensors2.pd.activities.SettingsActivity -> org.sensors2.pd.activities.GuideActivity | p=0.991643
+org.sensors2.pd.activities.SettingsActivity -> org.sensors2.pd.activities.Sensors2PdActivity | p=0.855825
+org.sensors2.pd.activities.GuideActivity -> org.sensors2.pd.activities.Sensors2PdActivity | p=0.828668
+org.sensors2.pd.activities.AboutActivity -> org.sensors2.pd.activities.Sensors2PdActivity | p=0.820499
+org.sensors2.pd.activities.AboutActivity -> org.sensors2.pd.activities.SettingsActivity | p=0.727430
+org.sensors2.pd.activities.SettingsActivity -> org.sensors2.pd.activities.AboutActivity | p=0.693564
+org.sensors2.pd.activities.AboutActivity -> org.sensors2.pd.activities.GuideActivity | p=0.690212
+org.sensors2.pd.activities.GuideActivity -> org.sensors2.pd.activities.AboutActivity | p=0.662310
+org.sensors2.pd.activities.Sensors2PdActivity -> org.sensors2.pd.activities.SettingsActivity | p=0.643777
+org.sensors2.pd.activities.Sensors2PdActivity -> org.sensors2.pd.activities.GuideActivity | p=0.586544
+org.sensors2.pd.activities.Sensors2PdActivity -> org.sensors2.pd.activities.AboutActivity | p=0.541331
+
+APK: eu.depau.etchdroid_21
+eu.depau.etchdroid.ui.AboutActivity -> eu.depau.etchdroid.ui.MainActivity | p=0.952619
+eu.depau.etchdroid.ui.MainActivity -> eu.depau.etchdroid.ui.AboutActivity | p=0.948296
+
+APK: org.documentfoundation.libreoffice_38
+org.libreoffice.LibreOfficeMainActivity -> org.libreoffice.ui.LibreOfficeUIActivity | p=0.990474
+org.libreoffice.ui.LibreOfficeUIActivity -> org.libreoffice.LibreOfficeMainActivity | p=0.989391
+org.libreoffice.SettingsActivity -> org.libreoffice.ui.LibreOfficeUIActivity | p=0.627688
+org.libreoffice.ui.LibreOfficeUIActivity -> org.libreoffice.SettingsActivity | p=0.582083
+org.libreoffice.SettingsActivity -> org.libreoffice.LibreOfficeMainActivity | p=0.574285
+org.libreoffice.LibreOfficeMainActivity -> org.libreoffice.SettingsActivity | p=0.554073
+
+APK: us.spotco.ir_remote_1700
+org.twinone.irremote.providers.DefaultProviderActivity -> org.twinone.irremote.ui.EditRemoteActivity | p=0.999943
+org.twinone.irremote.ui.EditRemoteActivity -> org.twinone.irremote.providers.DefaultProviderActivity | p=0.999943
+org.twinone.irremote.ui.MainActivity -> org.twinone.irremote.ui.EditRemoteActivity | p=0.915882
+org.twinone.irremote.ui.MainActivity -> org.twinone.irremote.providers.DefaultProviderActivity | p=0.914643
+org.twinone.irremote.ui.EditRemoteActivity -> org.twinone.irremote.ui.MainActivity | p=0.891877
+org.twinone.irremote.providers.DefaultProviderActivity -> org.twinone.irremote.ui.MainActivity | p=0.891008
+org.twinone.irremote.ui.SettingsActivity -> org.twinone.irremote.ui.EditRemoteActivity | p=0.576137
+org.twinone.irremote.ui.EditRemoteActivity -> org.twinone.irremote.ui.SettingsActivity | p=0.479559
+org.twinone.irremote.providers.DefaultProviderActivity -> org.twinone.irremote.ui.SettingsActivity | p=0.478027
+org.twinone.irremote.ui.SettingsActivity -> org.twinone.irremote.ui.MainActivity | p=0.454603
+org.twinone.irremote.ui.MainActivity -> org.twinone.irremote.ui.SettingsActivity | p=0.427212
+
+APK: org.secuso.privacyfriendlysudoku_14
+org.secuso.privacyfriendlysudoku.ui.AboutActivity -> org.secuso.privacyfriendlysudoku.ui.StatsActivity | p=0.999652
+org.secuso.privacyfriendlysudoku.ui.HelpActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity | p=0.990234
+org.secuso.privacyfriendlysudoku.ui.SettingsActivity -> org.secuso.privacyfriendlysudoku.ui.HelpActivity | p=0.989505
+org.secuso.privacyfriendlysudoku.ui.AboutActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity | p=0.987522
+org.secuso.privacyfriendlysudoku.ui.StatsActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity | p=0.986074
+org.secuso.privacyfriendlysudoku.ui.LoadGameActivity -> org.secuso.privacyfriendlysudoku.ui.AboutActivity | p=0.980141
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.977358
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.937101
+org.secuso.privacyfriendlysudoku.ui.AboutActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.851055
+org.secuso.privacyfriendlysudoku.ui.StatsActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.850161
+org.secuso.privacyfriendlysudoku.ui.HelpActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.847938
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.HelpActivity | p=0.844389
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.AboutActivity | p=0.839573
+org.secuso.privacyfriendlysudoku.ui.LoadGameActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.835820
+org.secuso.privacyfriendlysudoku.ui.SettingsActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.834051
+org.secuso.privacyfriendlysudoku.ui.HelpActivity -> org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity | p=0.810336
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity | p=0.802236
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.799297
+org.secuso.privacyfriendlysudoku.ui.TutorialActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.786179
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.LoadGameActivity | p=0.762395
+org.secuso.privacyfriendlysudoku.ui.TutorialActivity -> org.secuso.privacyfriendlysudoku.ui.HelpActivity | p=0.740844
+org.secuso.privacyfriendlysudoku.ui.TutorialActivity -> org.secuso.privacyfriendlysudoku.ui.AboutActivity | p=0.733574
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.HelpActivity | p=0.694802
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.StatsActivity | p=0.694693
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.AboutActivity | p=0.688910
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity | p=0.688139
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.StatsActivity | p=0.685243
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.HelpActivity | p=0.683272
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.AboutActivity | p=0.680513
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity | p=0.668155
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.LoadGameActivity | p=0.667416
+org.secuso.privacyfriendlysudoku.ui.AboutActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.654803
+org.secuso.privacyfriendlysudoku.ui.StatsActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.652015
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.LoadGameActivity | p=0.650220
+org.secuso.privacyfriendlysudoku.ui.HelpActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.645866
+org.secuso.privacyfriendlysudoku.ui.LoadGameActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.619436
+org.secuso.privacyfriendlysudoku.ui.SettingsActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.612836
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.599063
+org.secuso.privacyfriendlysudoku.ui.LoadGameActivity -> org.secuso.privacyfriendlysudoku.ui.TutorialActivity | p=0.592639
+org.secuso.privacyfriendlysudoku.ui.TutorialActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.584647
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity | p=0.561436
+org.secuso.privacyfriendlysudoku.ui.CreateSudokuActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity | p=0.550250
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.TutorialActivity | p=0.526171
+org.secuso.privacyfriendlysudoku.ui.CreateSudokuActivity -> org.secuso.privacyfriendlysudoku.ui.StatsActivity | p=0.346503
+org.secuso.privacyfriendlysudoku.ui.CreateSudokuActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity | p=0.322142
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.CreateSudokuActivity | p=0.166150
+
+APK: souch.smp_32
+souch.smp.ChangelogsActivity -> souch.smp.SettingsActivity | p=0.955947
+souch.smp.SettingsActivity -> souch.smp.ChangelogsActivity | p=0.921755
+souch.smp.Main -> souch.smp.SettingsActivity | p=0.654130
+souch.smp.Main -> souch.smp.ChangelogsActivity | p=0.494346
+souch.smp.SettingsActivity -> souch.smp.Main | p=0.408919
+souch.smp.ChangelogsActivity -> souch.smp.Main | p=0.397133
+
+APK: de.nulide.shiftcal_16
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.settings.SettingsActivity | p=0.943715
+de.nulide.shiftcal.settings.AboutActivity -> de.nulide.shiftcal.settings.SettingsActivity | p=0.869253
+de.nulide.shiftcal.settings.ThemeActivity -> de.nulide.shiftcal.settings.SettingsActivity | p=0.865842
+de.nulide.shiftcal.settings.AlarmActivity -> de.nulide.shiftcal.settings.SettingsActivity | p=0.851318
+de.nulide.shiftcal.ShiftCreatorActivity -> de.nulide.shiftcal.settings.CalendarSyncActivity | p=0.801636
+de.nulide.shiftcal.settings.AboutActivity -> de.nulide.shiftcal.settings.AlarmActivity | p=0.784567
+de.nulide.shiftcal.settings.CalendarSyncActivity -> de.nulide.shiftcal.settings.SettingsActivity | p=0.779925
+de.nulide.shiftcal.ShiftCreatorActivity -> de.nulide.shiftcal.ShiftsActivity | p=0.737067
+de.nulide.shiftcal.CalendarActivity -> de.nulide.shiftcal.settings.SettingsActivity | p=0.686537
+de.nulide.shiftcal.settings.DNDActivity -> de.nulide.shiftcal.settings.SettingsActivity | p=0.682966
+de.nulide.shiftcal.settings.CalendarSyncActivity -> de.nulide.shiftcal.ShiftsActivity | p=0.618024
+de.nulide.shiftcal.settings.AboutActivity -> de.nulide.shiftcal.settings.ThemeActivity | p=0.594278
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.settings.AlarmActivity | p=0.590820
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.ShiftCreatorActivity | p=0.568792
+de.nulide.shiftcal.settings.CalendarSyncActivity -> de.nulide.shiftcal.CalendarActivity | p=0.546306
+de.nulide.shiftcal.CalendarActivity -> de.nulide.shiftcal.ShiftsActivity | p=0.492403
+de.nulide.shiftcal.settings.AlarmActivity -> de.nulide.shiftcal.CalendarActivity | p=0.469905
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.CalendarActivity | p=0.446776
+de.nulide.shiftcal.settings.AlarmActivity -> de.nulide.shiftcal.settings.ThemeActivity | p=0.444269
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.settings.CalendarSyncActivity | p=0.427649
+de.nulide.shiftcal.settings.DNDActivity -> de.nulide.shiftcal.CalendarActivity | p=0.414727
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.AboutActivity | p=0.391897
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.AlarmActivity | p=0.383900
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.ThemeActivity | p=0.354603
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.CalendarActivity | p=0.335196
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.CalendarSyncActivity | p=0.311562
+de.nulide.shiftcal.CalendarActivity -> de.nulide.shiftcal.settings.DNDActivity | p=0.258397
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.settings.DNDActivity | p=0.245231
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.DNDActivity | p=0.196049
+

@@ -1,0 +1,46 @@
+
+ROOT_DIR: "/root/autodl-tmp/atg"
+
+
+BERT_MODEL_PATH: "${ROOT_DIR}/models/bert-base-cased"
+ALL_MINILM_L12_V2_MODEL_PATH: "${ROOT_DIR}/models/all-MiniLM-L12-v2"
+
+
+DATA_DIR: "${ROOT_DIR}/verify_ground_truth_embedding_data"
+EMBEDDING_OUTPUT_DIR: "${DATA_DIR}/embeddings"
+FUSION_EMBEDDING_DIR: "${EMBEDDING_OUTPUT_DIR}/fused_embeddings"
+FUSION_ACTIVITY_EMBEDDING_DIR: "${FUSION_EMBEDDING_DIR}/activity"
+FUSION_WIDGET_EMBEDDING_DIR: "${FUSION_EMBEDDING_DIR}/widget"
+
+
+RAW_DATA_TXT_DIR: "${ROOT_DIR}/verify_ground_truth_atgs"
+ACTIVITY_TXT_DIR: "${RAW_DATA_TXT_DIR}/atg_activities"
+WIDGET_TXT_DIR: "${RAW_DATA_TXT_DIR}/atg_widgets"
+ATG_INDEX_DIR: "${RAW_DATA_TXT_DIR}/atg_index"
+
+DIMENSION_REDUCED_BASE_DIR: "${FUSION_EMBEDDING_DIR}/dimension_reduced"
+
+DEVICE_ID: 0
+BATCH_SIZE: 2000
+PRECISION: "float32"
+
+DEFAULT_MAX_LENGTH: 64
+TASK_MAX_LENGTH:
+  activity_name: 64
+  widget_name: 64
+  activity_summary: 64
+  widget_summary: 64
+  activity_simple_name: 64
+  activity_remove_suffix: 64
+
+DIMENSION_REDUCTION:
+  ENABLE_LINEAR: true
+  TARGET_DIMS:
+    activity_name: 64
+    widget_name: 64
+    activity_summary: 64
+    widget_summary: 64
+    activity_simple_name: 64
+    activity_remove_suffix: 64
+
+RANDOM_SEED: 42

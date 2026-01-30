@@ -1,0 +1,72 @@
+activity_prompt_template: |
+  As an Android app tester, given an Activity's info:
+  - Activity id: [MASK_ID]
+  - Activity name: [MASK_NAME]
+  - Detailed structure: [MASK_STRUCTURE]
+  
+  Succinctly and accurately summarize the core purpose of this Activity in one sentence.
+  Your Response must follow the requirements:
+  1. In English and in one concise sentence (≤30 English words)
+  2. Accurately reflects the main function/purpose
+  3. No extra info/explanations
+  4. Return as a pure JSON object wrapped in triple backticks (code block markers):
+  ```{
+    "activity_id": "[MASK_ID]",
+    "activity_name": "[MASK_NAME]",
+    "purpose": "YOUR_ANSWER"
+  }```
+
+retry_prompt_template: |
+  The previous response did not meet the requirements. Please try again to summarize the core purpose of the Activity in one sentence, following the specified format and constraints:
+  - Activity id: [MASK_ID]
+  - Activity name: [MASK_NAME]
+  - Detailed structure: [MASK_STRUCTURE]
+  
+  Succinctly and accurately summarize the core purpose of this Activity in one sentence.
+  Your Response must follow the requirements:
+  1. In English and in one concise sentence (≤30 English words)
+  2. Accurately reflects the main function/purpose
+  3. No extra info/explanations
+  4. Return as a pure JSON object wrapped in triple backticks (code block markers):
+  ```{
+    "activity_id": "[MASK_ID]",
+    "activity_name": "[MASK_NAME]",
+    "purpose": "YOUR_ANSWER"
+  }```
+
+widget_prompt_template: |
+  As an Android app tester, given a Widget's info:
+  - Widget id: [MASK_ID]
+  - Widget type: [MASK_TYPE]
+  - Widget structure: [MASK_CONTENT]
+  
+  Succinctly and accurately summarize the core purpose/function of this Widget in one sentence.
+  Your Response must follow the requirements:
+  1. In English and in one concise sentence (≤30 English words)
+  2. Accurately reflects the main function/purpose
+  3. No extra info/explanations
+  4. Return as a pure JSON object wrapped in triple backticks (code block markers):
+  ```{
+    "widget_id": "[MASK_ID]",
+    "widget_type": "[MASK_TYPE]",
+    "purpose": "YOUR_ANSWER"
+  }```
+
+
+retry_widget_prompt_template: |
+  The previous response did not meet the requirements. Please try again to summarize the core purpose of the Activity in one sentence, following the specified format and constraints:
+  - Widget id: [MASK_ID]
+  - Widget type: [MASK_TYPE]
+  - Widget structure: [MASK_CONTENT]
+  
+  Succinctly and accurately summarize the core purpose/function of this Widget in one sentence.
+  Your Response must follow the requirements:
+  1. In English and in one concise sentence (≤30 English words)
+  2. Accurately reflects the main function/purpose
+  3. No extra info/explanations
+  4. Return as a pure JSON object wrapped in triple backticks (code block markers):
+  ```{
+    "widget_id": "[MASK_ID]",
+    "widget_type": "[MASK_TYPE]",
+    "purpose": "YOUR_ANSWER"
+  }```

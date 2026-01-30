@@ -1,0 +1,53 @@
+run_generate: true
+generation_tasks:
+  - activity_name
+  - activity_summary
+  - widget_name
+  - widget_summary
+  - activity_simple_name
+  - activity_remove_suffix
+
+run_ablation_fusion: true
+ablation_tasks:
+  - ab_baseline
+  - ab_complete
+  - ab_widget_none
+  - ab_widget_only_name
+  - ab_widget_only_summary
+  - ab_activity_only_name
+  - ab_activity_only_summary
+  - ab_activity_simple_name
+  - ab_activity_remove_suffix
+
+run_dim_reduction: true
+dim_reduction_tasks:
+  - ab_baseline
+  - ab_complete
+  - ab_widget_none
+  - ab_widget_only_name
+  - ab_widget_only_summary
+  - ab_activity_only_name
+  - ab_activity_only_summary
+  - ab_activity_simple_name
+  - ab_activity_remove_suffix
+run_build_pack: true
+
+build_pack_tasks:
+  - ab_baseline
+  - ab_complete
+  - ab_widget_none
+  - ab_widget_only_name
+  - ab_widget_only_summary
+  - ab_activity_only_name
+  - ab_activity_only_summary
+  - ab_activity_simple_name
+  - ab_activity_remove_suffix
+
+pack_dir_name: verify_ground_truth_packed_data
+graphs_per_file: 100
+use_packed_data: false
+force_rebuild_pack: true
+
+reduction_method: LINEAR
+
+require_confirm: true
